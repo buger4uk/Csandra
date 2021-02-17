@@ -1,10 +1,9 @@
 package main
 
 import (
-	"log"
 	"github.com/Syfaro/telegram-bot-api"
+	"log"
 )
-
 
 func main() {
 	bot, err := tgbotapi.NewBotAPI("1654399226:AAHfx2-TX61Zvxu5lOtJiwYn2TMH8rVzJpI")
