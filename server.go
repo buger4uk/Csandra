@@ -14,5 +14,5 @@ func (m msg) ServeHTTP(writer http.ResponseWriter, request *http.Request) {
 func main() {
 	msgHandler := msg("Hello from Csandra Service")
 	fmt.Println("Server is listening...")
-	http.ListenAndServe("Localhost:8181", msgHandler)
+	http.ListenAndServe("Localhost:3000", msgHandler)
 }
